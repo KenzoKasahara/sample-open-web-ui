@@ -13,13 +13,11 @@ This project runs both Ollama and Open WebUI as Docker containers using Docker C
 
 2. Start the containers.
 
-
     ```sh
     docker-compose up -d
     ```
 
 3. Install "LLM: gemma4:e4b" in the docker container.
-
 
     ```sh
     docker exec ollama ollama pull gemma4:e4b
